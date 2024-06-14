@@ -64,7 +64,7 @@ const Theme = () => {
                     <div className="absolute md:w-72 md:-ml-32 md:-mt-20 xl:w-80 xl:-ml-36 xl:-mt-24"><Image src={tshirt} alt="tshirt"/></div>
                     <div className="bg-green-500 md:w-10 md:h-10 xl:w-12 xl:h-12"></div>
                     <div className="bg-white md:w-10 md:h-10 xl:w-12 xl:h-12"></div>
-                    <div className="absolute md:w-28 md:ml-28 md:-mt-6 xl:w-36 xl:ml-32 xl:-mt-10"><Image src={Group} alt="group"/></div>
+                    <div className="absolute md:w-28 md:ml-28 md:-mt-6 xl:w-36 xl:ml-32 xl:-mt-10"><Image src={Group} alt="Group"/></div>
                     <div className="absolute md:w-24 md:ml-36 md:-mt-8 xl:w-36 xl:ml-44 xl:-mt-10"><Image src={pen} alt="pen"/></div>
                 </div>
                 <div className="flex md:gap-1 xl:gap-1">
