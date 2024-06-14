@@ -64,10 +64,10 @@ const Main = () => {
                     </div>
                     {/* For medium screen and above */}
                     <div className="hidden md:flex justify-evenly bg-white rounded-3xl space-x-6 h-auto p-4">
-                        <div><img className="rounded-3xl h-96 w-80" src="blank.png alt="blank""></img></div>
+                        <div><img className="rounded-3xl h-96 w-80" src="blank.png" alt="blank"></img></div>
                             <div className="block space-y-4"> 
-                                <div><img className="rounded-3xl h-44 w-80" src="blank.png alt="blank""></img></div>
-                                <div><img className="rounded-3xl h-44 w-80" src="blank.png alt="blank""></img></div>
+                                <div><img className="rounded-3xl h-44 w-80" src="blank.png" alt="blank"></img></div>
+                                <div><img className="rounded-3xl h-44 w-80" src="blank.png" alt="blank"></img></div>
                             </div>
                         <div><img className="rounded-3xl h-96 w-80" src="blank.png" alt="blank"></img></div>
                     </div>
