@@ -37,7 +37,7 @@ const Theme = () => {
                 </div>
                 <div className="flex md:gap-1 xl:gap-1">
                     <div className="bg-yellow-400 md:w-10 md:h-10 xl:w-12 xl:h-12"></div>
-                    <div className="absolute md:w-24 md:-ml-12 md:-mt-1 xl:w-32 xl:-ml-16 xl:-mt-2"><Image src={mug} /></div>
+                    <div className="absolute md:w-24 md:-ml-12 md:-mt-1 xl:w-32 xl:-ml-16 xl:-mt-2"><Image src={mug} alt="mug"/></div>
                     <div className="bg-transparent md:w-10 md:h-10 xl:w-12 xl:h-12"></div>
                     <div className="bg-transparent md:w-10 md:h-10 xl:w-12 xl:h-12"></div>
                     <div className="bg-yellow-700 md:w-10 md:h-10 xl:w-12 xl:h-12"></div>
@@ -61,11 +61,11 @@ const Theme = () => {
                 </div>
                 <div className="flex md:gap-1 xl:gap-1">
                     <div className="bg-transparent md:w-10 md:h-10 xl:w-12 xl:h-12"></div>
-                    <div className="absolute md:w-72 md:-ml-32 md:-mt-20 xl:w-80 xl:-ml-36 xl:-mt-24"><Image src={tshirt} /></div>
+                    <div className="absolute md:w-72 md:-ml-32 md:-mt-20 xl:w-80 xl:-ml-36 xl:-mt-24"><Image src={tshirt} alt="tshirt"/></div>
                     <div className="bg-green-500 md:w-10 md:h-10 xl:w-12 xl:h-12"></div>
                     <div className="bg-white md:w-10 md:h-10 xl:w-12 xl:h-12"></div>
-                    <div className="absolute md:w-28 md:ml-28 md:-mt-6 xl:w-36 xl:ml-32 xl:-mt-10"><Image src={Group} /></div>
-                    <div className="absolute md:w-24 md:ml-36 md:-mt-8 xl:w-36 xl:ml-44 xl:-mt-10"><Image src={pen} /></div>
+                    <div className="absolute md:w-28 md:ml-28 md:-mt-6 xl:w-36 xl:ml-32 xl:-mt-10"><Image src={Group} alt="group"/></div>
+                    <div className="absolute md:w-24 md:ml-36 md:-mt-8 xl:w-36 xl:ml-44 xl:-mt-10"><Image src={pen} alt="pen"/></div>
                 </div>
                 <div className="flex md:gap-1 xl:gap-1">
                     <div className="bg-transparent md:w-10 md:h-10 xl:w-12 xl:h-12"></div>
@@ -86,7 +86,7 @@ const Theme = () => {
                     <div className="bg-yellow-700 md:w-10 md:h-10 xl:w-12 xl:h-12"></div>
                     <div className="bg-red-600 md:w-10 md:h-10 xl:w-12 xl:h-12"></div>
                     <div className="bg-white md:w-10 md:h-10 xl:w-12 xl:h-12"></div>
-                    <div className="absolute md:w-52 md:ml-9 md:-mt-28 xl:w-52 xl:ml-16 xl:-mt-28"><Image src={bottle} /></div>
+                    <div className="absolute md:w-52 md:ml-9 md:-mt-28 xl:w-52 xl:ml-16 xl:-mt-28"><Image src={bottle} alt="bottle"/></div>
                 </div>
                 <div className="lg:hidden flex">
                     <div className="bg-transparent w-10 h-8"></div>
