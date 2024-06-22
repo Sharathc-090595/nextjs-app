@@ -8,31 +8,32 @@ import { FaLocationDot } from "react-icons/fa6";
 import { FaFacebookF, FaGrinBeamSweat } from "react-icons/fa";
 import { GrInstagram } from "react-icons/gr";
 import Theme from './Theme';
+import blank from '../../public/Images/blank.png';
 
 const Main = () => {
     return(
         <div className="m-2">
-            <div className="flex justify-evenly">
-                <div>
+            <div className="flex justify-evenly lg:justify-around">
+                <div className="md:">
                     <Image className="mt-6 ml-4" src={logo} width={100} height={100}/>
                     <div className="ml-8 mb-6">
                         <Image src={inscribink_tm} width={320} height={320}/>
                         <Image className="absolute -z-10 ml-96 -mt-48 md:hidden opacity-40" src={themebg} width={300} height={300} />
                         <h1 className="text-6xl font-medium">Coming Soon!</h1>
                         <h4 className="mt-5 mb-5 ml-1 text-xl">Your One-Stop Print Shop!</h4>
-                        <p className="ml-1 mb-5 mt-3 pr-8 xl:text-xl leading-relaxed text-left mr-0 md:mr-12 xl:mr-80">At Inscribink, we're passionate about turning your ideas into vibrant reality! We offer a vast selection of customizable printing options, from classic t-shirts and stylish water bottles to personalized notebooks and professional brochures. We use top-notch printing technology to ensure exceptional quality, and our dedicated team is here to make your experience seamless.</p>
+                        <p className="ml-1 mb-5 mt-3 pr-6 xl:text-xl leading-relaxed text-left mr-0 md:mr-12 xl:mr-80">At Inscribink, we're passionate about turning your ideas into vibrant reality! We offer a vast selection of customizable printing options, from classic t-shirts and stylish water bottles to personalized notebooks and professional brochures. We use top-notch printing technology to ensure exceptional quality, and our dedicated team is here to make your experience seamless.</p>
                     </div>
-                    <div className="m-6 p-4 lg:flex flex-col space-y-4">
-                        <div><h2 className="text-xl text-center lg:text-2xl mt-4 mb-5 font-medium tracking-wider">We are open for orders through...</h2></div>
+                    <div className="m-6 mb-0 flex flex-col space-y-4">
+                        <div><h2 className="text-xl text-center xl:text-left xl:ml-64 lg:text-2xl mt-4 mb-5 font-medium tracking-wider">We are open for orders through...</h2></div>
                         <div className="flex flex-col lg:flex-row space-y-3 lg:space-y-0">
-                            <div className="flex ml-3 space-x-4 lg:space-x-2 xl:text-xl">
+                            <div className="flex ml-4 space-x-4 lg:space-x-2 xl:text-xl">
                                 <div><h3 className="text-yellow-400">Order through WhatsApp or Call :</h3></div>
                                 <div>
                                     <a href="https://wa.me/9846655561">+919846655561</a><br></br>
                                     <a href="https://wa.me/9846655562">+919846655562</a>
                                 </div>
                             </div>
-                            <div className="ml-44 md:ml-28 lg:ml-10 flex space-x-4 xl:text-xl">
+                            <div className="ml-44 sm:ml-44 md:ml-44 lg:ml-10 flex space-x-4 xl:text-xl">
                                 <div><h3 className="text-yellow-400">Mail us at :</h3></div>
                                     <div>
                                         <a href="mailto:info@inscribink.com">info@inscribink.com</a><br></br>
@@ -42,11 +43,11 @@ const Main = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="mr-10">
+                    <div className="mr-10 md:mr-8 2xl:mr-36">
                         <Theme />
                     </div>
                 </div>
-                <div className="m-8">
+                <div className="m-8 mt-0">
                     <div className="flex justify-center">
                         <div className="flex relative inset-y-36 w-full h-20 bg-yellow-500 box-border border-dashed border-y-8 border-black -rotate-12 lg:-rotate-6">
                             <div className="p-3 w-full text-2xl text-black font-bold text-center">Launching Soon</div>
@@ -55,21 +56,21 @@ const Main = () => {
                     </div>
                     {/* for small screen */}  
                     <div className="bg-white md:hidden rounded-3xl space-y-6 p-4">
-                        <div><img className="rounded-3xl h-80 w-full" src="blank.png"></img></div>
-                        <div><img className="rounded-3xl h-44 w-full" src="blank.png"></img></div>
+                        <div><Image className="rounded-3xl h-80 w-full" src={blank} /></div>
+                        <div><Image className="rounded-3xl h-44 w-full" src={blank} /></div>
                         <div className="flex justify-evenly pt-4 pb-0">
-                            <div><img className="rounded-3xl h-72 w-36" src="blank.png"></img></div>
-                            <div><img className="rounded-3xl h-72 w-36" src="blank.png"></img></div>
+                            <div><Image className="rounded-3xl h-72 w-36" src={blank} /></div>
+                            <div><Image className="rounded-3xl h-72 w-36" src={blank} /></div>
                         </div>
                     </div>
                     {/* For medium screen and above */}
                     <div className="hidden md:flex justify-evenly bg-white rounded-3xl space-x-6 h-auto p-4">
-                        <div><img className="rounded-3xl h-96 w-80" src="blank.png"></img></div>
+                        <div><Image className="rounded-3xl h-96 w-80" src={blank} /></div>
                             <div className="block space-y-4"> 
-                                <div><img className="rounded-3xl h-44 w-80" src="blank.png"></img></div>
-                                <div><img className="rounded-3xl h-44 w-80" src="blank.png"></img></div>
+                                <div><Image className="rounded-3xl h-44 w-80" src={blank} /></div>
+                                <div><Image className="rounded-3xl h-44 w-80" src={blank} /></div>
                             </div>
-                        <div><img className="rounded-3xl h-96 w-80" src="blank.png"></img></div>
+                        <div><Image className="rounded-3xl h-96 w-80" src={blank} /></div>
                     </div>
                     <div className="flex flex-col justify-center items-center md:flex-row md:justify-evenly m-10">
                         <div className="text-start text-3xl font-semibold tracking-wider w-64 m-10">
