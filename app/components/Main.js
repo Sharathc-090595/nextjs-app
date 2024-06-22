@@ -4,18 +4,16 @@ import themebg from "../../public/Images/themebg.png";
 import inscribink_tm from "../../public/Images/inscribink_tm.png";
 import blank from "../../public/Images/blank.png";
 import { IoIosMail } from "react-icons/io";
-import { FaPhone } from "react-icons/fa6";
-import { FaLocationDot } from "react-icons/fa6";
-import { FaFacebookF, FaGrinBeamSweat } from "react-icons/fa";
+import { FaPhone, FaLocationDot } from "react-icons/fa6";
+import { FaFacebookF } from "react-icons/fa";
 import { GrInstagram } from "react-icons/gr";
 import Theme from './Theme';
-import blank from '../../public/Images/blank.png';
 
 const Main = () => {
     return(
         <div className="m-2">
             <div className="flex justify-evenly lg:justify-around">
-                <div className="md:">
+                <div>
                     <Image className="mt-6 ml-4" src={logo} width={100} height={100} alt="logo"/>
                     <div className="ml-8 mb-6">
                         <Image src={inscribink_tm} width={320} height={320} alt="tm"/>
@@ -57,21 +55,21 @@ const Main = () => {
                     </div>
                     {/* for small screen */}  
                     <div className="bg-white md:hidden rounded-3xl space-y-6 p-4">
-                        <div><Image className="rounded-3xl h-80 w-full" src="blank.png" alt="blank"/></div>
-                        <div><Image className="rounded-3xl h-44 w-full" src="blank.png" alt="blank"/></div>
+                        <div><Image className="rounded-3xl h-80 w-full" src={blank} alt="blank"/></div>
+                        <div><Image className="rounded-3xl h-44 w-full" src={blank} alt="blank"/></div>
                         <div className="flex justify-evenly pt-4 pb-0">
-                            <div><Image className="rounded-3xl h-72 w-36" src="blank.png" alt="blank"/></div>
-                            <div><Image className="rounded-3xl h-72 w-36" src="blank.png" alt="blank"/></div>
+                            <div><Image className="rounded-3xl h-72 w-36" src={blank} alt="blank"/></div>
+                            <div><Image className="rounded-3xl h-72 w-36" src={blank} alt="blank"/></div>
                         </div>
                     </div>
                     {/* For medium screen and above */}
                     <div className="hidden md:flex justify-evenly bg-white rounded-3xl space-x-6 h-auto p-4">
-                        <div><Image className="rounded-3xl h-96 w-80" src="blank.png" alt="blank"/></div>
+                        <div><Image className="rounded-3xl h-96 w-80" src={blank} alt="blank"/></div>
                             <div className="block space-y-4"> 
-                                <div><Image className="rounded-3xl h-44 w-80" src="blank.png" alt="blank"/></div>
-                                <div><Image className="rounded-3xl h-44 w-80" src="blank.png" alt="blank"/></div>
+                                <div><Image className="rounded-3xl h-44 w-80" src={blank} alt="blank"/></div>
+                                <div><Image className="rounded-3xl h-44 w-80" src={blank} alt="blank"/></div>
                             </div>
-                        <div><Image className="rounded-3xl h-96 w-80" src="blank.png" alt="blank"/></div>
+                        <div><Image className="rounded-3xl h-96 w-80" src={blank} alt="blank"/></div>
                     </div>
                     <div className="flex flex-col justify-center items-center md:flex-row md:justify-evenly m-10">
                         <div className="text-start text-3xl font-semibold tracking-wider w-64 m-10">
