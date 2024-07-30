@@ -16,9 +16,23 @@
   }
 }
 
+.container {
+  width: 100%;
+  max-width: 100%; /* Ensures the container doesn't exceed the viewport width */
+  overflow-x: hidden; /* Prevents horizontal scrolling */
+}
+
+@media (max-width: 640px) {
+  .container {
+    padding: 0 10px; /* Adjust padding for smaller screens */
+    box-sizing: border-box; /* Ensures padding doesn't increase width */
+  }
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: rgb(27, 27, 27);
+  overflow-x: hidden;
 }
 
 @layer utilities {
